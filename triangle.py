@@ -14,3 +14,7 @@ for i in range(10):
 	for k in range(10 - i,10):
 		print('*',end=' ')
 	print('')
+
+number = range(10)
+for i in number:
+	print(i)
