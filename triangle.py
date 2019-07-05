@@ -18,3 +18,7 @@ for i in range(10):
 number = range(10)
 for i in number:
 	print(i)
+
+number = range(10)
+for i in number:
+	print(i)
