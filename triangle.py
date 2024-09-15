@@ -15,10 +15,12 @@ for i in range(10):
 		print('*',end=' ')
 	print('')
 
-number = range(10)
-for i in number:
-	print(i)
-
-number = range(10)
-for i in number:
-	print(i)
+for j in range(10):
+	for x in range(0,j):
+		print('*',end='')
+	for n in range(j,19-j):
+		print(' ',end='')
+	for k in range(0,j):
+		print('*',end='')
+	print('')
+	
